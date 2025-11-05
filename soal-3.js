@@ -12,10 +12,10 @@ const obj ={
                     koda : [
                         {
                             tech : {
-                                academy : [
-                                    0,
-                                    'Koda Tech Academy',
-                                ]
+                                academy : 
+                                    'Koda Tech Academy'
+                                
+                                
                             }
                         }
                     ]
@@ -24,4 +24,4 @@ const obj ={
         ]
     ]
 };
-console.log(obj.str[1][2][3].koda[0].tech['academy'][1]);
+console.log(obj.str[1][2][3].koda[0].tech['academy']);
